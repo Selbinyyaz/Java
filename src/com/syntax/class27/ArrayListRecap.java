@@ -26,6 +26,8 @@ public class ArrayListRecap {
 
 		// retrieve(or get) single element
 		System.out.println(alist.get(1));
+		//System.out.println("remove all the elements. ");
+		//alist.clear();
 
 		// retrieve all elements from collection
 		// 1. use advanced/enhanced for loop
