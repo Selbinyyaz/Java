@@ -28,8 +28,8 @@ String me="I am a good tester";
 		System.out.println("----- replaceAll() FUNCTION -----");
 		
 		String str="Phone number is 1234567890";
-		System.out.println(str);
-		str=str.replaceAll("[A-Za-z]", "");
+		System.out.println("1:"+str);
+		str=str.replaceAll("[^A-Za-z]", " ");
 		
 		System.out.println(str);
 		

@@ -1,5 +1,7 @@
 package com.syntax.class30;
 import java.util.*;
+
+
 public class AllMaps {
 
 	public static void main(String[] args) {
@@ -49,6 +51,23 @@ public class AllMaps {
        Iterator<Integer> iterator=shopping.values().iterator();
        while(iterator.hasNext()) {
     	   System.out.println(iterator.next());
+    	   
+    	   
+    		ArrayList<String> aList = new ArrayList<>();
+    		
+    		aList.add("John");
+    		aList.add("Jane");
+    		aList.add("James");
+    		aList.add("Jasmine");
+    		aList.add("Jane");
+    		aList.add("James");
+    		
+    		LinkedHashSet<String>llist=new LinkedHashSet<String>();
+    		llist.addAll(aList);
+    		System.out.println(llist);
+    		
+    		
+
        }
 	}
 

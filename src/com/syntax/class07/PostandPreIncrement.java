@@ -1,4 +1,4 @@
-package com.syntax.class07;
+ package com.syntax.class07;
 
 public class PostandPreIncrement {
 
